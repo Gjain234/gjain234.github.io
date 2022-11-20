@@ -1,6 +1,7 @@
 ---
 layout: about
 title: about
+navbar:true
 permalink: /
 subtitle: Researcher at <a href='https://teamcore.seas.harvard.edu/'>Harvard Teamcore Group. </a>. 
 
