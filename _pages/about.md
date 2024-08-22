@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Researcher at <a href='https://teamcore.seas.harvard.edu/'>Harvard Teamcore Group. </a> 
+subtitle: Advised by <a href='https://elisabethpaulson.github.io/'>Elisabeth Paulson</a>.
 
 profile:
   align: right
