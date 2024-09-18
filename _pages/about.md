@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hello! My name is [Gauri](https://youtu.be/DZ6DOqpxTjg?t=8) and I'm a second year Computer Science PhD student at Harvard. I am excited about all things related to using technology (carefully!!) to make the world better. For my research, I'm especially interested in applying concepts in optimization and machine learning to problems in public health and immigration. 
+Hello! My name is [Gauri](https://youtu.be/DZ6DOqpxTjg?t=8) and I'm a third year Computer Science PhD student at Harvard. I am excited about all things related to using technology (carefully!!) to make the world better. For my research, I'm especially interested in applying concepts in optimization and machine learning to problems in public health and immigration. 
 
 Before Harvard, I worked at Meta as a software engineer on Marketplace and Integrity products in the Bay Area and London. And before that, I studied computer science at Cornell University. 
 
