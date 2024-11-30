@@ -5,7 +5,7 @@
 /*******************************************************************************
  * Themes
  ******************************************************************************/
-:root {
+ :root {
   --global-bg-color: #ffffff;
   --global-code-bg-color: rgba(181, 9, 172, 0.05);
   --global-text-color: #000000;
@@ -405,6 +405,13 @@ footer.sticky-bottom {
         width: 100%;
         min-width: 80px;
         max-width: 200px; }
+      .publications ol.bibliography li .award {
+        color: var(--global-theme-color);
+        font-weight: bold;
+      } 
+      .publications ol.bibliography li .award-text {
+        font-weight: bold;
+      }
       .publications ol.bibliography li .abbr {
         height: 2rem;
         margin-bottom: 0.5rem; }
