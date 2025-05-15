@@ -20,45 +20,97 @@
   preview={brownian-motion.gif}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@article{irlpricai,
+  abbr={PRICAI 2024},
+  award={Best Paper Runner-Up},
+  title={IRL for Restless Multi-armed Bandits with Applications in Maternal and Child Health},
+  author={Jain, Gauri and Varakantham, Pradeep and Xu, Haifeng and Taneja, Aparna and Doshi, Prashant and Tambe, Milind},
+  abstract={Public health practitioners often have the goal of monitoring patients and maximizing patients' time spent in ``favorable" or healthy states while being constrained to using limited resources. Restless multi-armed bandits (RMAB) are an effective model to solve this problem as they are helpful to allocate limited resources among many agents under resource constraints, where patients behave differently depending on whether they are intervened on or not. However, RMABs assume the reward function is known. This is unrealistic in many public health settings because patients face unique challenges and it is impossible for a human to know who is most deserving of any intervention at such a large scale. To address this shortcoming, this paper is the first to present the use of inverse reinforcement learning (IRL) to learn desired rewards for RMABs, and we demonstrate improved outcomes in a maternal and child health telehealth program. First we allow public health experts to specify their goals at an aggregate or population level and propose an algorithm to design expert trajectories at scale based on those goals. Second, our algorithm WHIRL uses gradient updates to optimize the objective, allowing for efficient and accurate learning of RMAB rewards. Third, we compare with existing baselines and outperform those in terms of run-time and accuracy. Finally, we evaluate and show the usefulness of WHIRL on thousands on beneficiaries from a real-world maternal and child health setting in India. We publicly release our code here: https://github.com/Gjain234/WHIRL.},
+  journal={PRICAI},
+  url={https://link.springer.com/chapter/10.1007/978-981-96-0128-8_15},
+  html={https://link.springer.com/chapter/10.1007/978-981-96-0128-8_15},
+  year={2024},
+  month={November},
+  selected={true}
 }
 
 @article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
+  abbr={IJCAI 2023 Workshop},
+  title={Inverse Reinforcement Learning for Restless Multi-Armed Bandits with Application to Maternal and Child Health},
+  author={Jain, Gauri and Varakantham, Pradeep and Xu, Haifeng and Taneja, Aparna and Tambe, Milind},
+  abstract={We study restless multi-armed bandits (RMABs) in the context of public health, where there is a need to optimize resource allocation decisions. Until now, RMABs typically solve for the optimal planning policy by assuming the reward function in the problem is fully known. However, in this work, we aim to study whether we can learn the most optimal rewards for an RMAB problem given some demonstrated, ideal behavior. To achieve this, we turn to inverse reinforcement learning (IRL) which is a field of study motivated by the desire to understand and learn the underlying reward structure of an agent’s observed behavior. Existing IRL approaches predominantly focus on single agent systems, presenting limitations in dealing with the expansive state spaces characteristic of public health scenarios, where tens of thousands of arms are active simultaneously. We propose a new IRL algorithm specifically for RMAB settings that uses techniques from decision focused learning (DFL) to directly optimize the objective function, allowing for efficient and accurate updates to the learned rewards. We compare our algorithm with the max entropy IRL baseline on runtime and accuracy and find that our algorithm performs better on both metrics. We also propose a framework for how to apply this algorithm in the public health domain where expert trajectories come from domain experts.},
+  journal={IJCAI Bridge AI Workshop},
+  year={2023},
+  url={https://sites.google.com/view/bridgeai/accepted-papers},
+  html={https://sites.google.com/view/bridgeai/accepted-papers},
+  month={August},
+  selected={true}
+}
+
+@article{PhysRev.47.777,
+  abbr={AAAI 2023 Workshop},
+  title={BiomeAzuero2022: A Fine-Grained Dataset and Baselines for Tree Species
+Classification with Ground Images},
+  author={Gu*, Ziwei, and Jain*, Gauri, and Song*, Hongwen, and Diaz, Isak Diaz, and Masson-Forsythe, Margaux, and Valdes, Jorge},
+  abstract={It is becoming increasingly popular for organizations to invest in carbon credits programs involving planting trees to
+offset their carbon footprint. However, in order to correctly
+measure carbon sequestration, it is important to know which
+tree species exist in a given region. This identification task
+requires very well-trained local botanists who are not only
+an expensive resource, but also not accurate enough. AIassisted tree classification has become an promising way to
+solve the problem, but low data quality has been the limiting factor. Our work focuses on determining how to build a
+high quality dataset of tree parts that can lead to the most accurate tree classification. We contribute BiomeAzuero2022,
+a publicly available image dataset of 9071 tree images captured in Azuero, Panama with ground truth species labels,
+organized by different parts of trees. We further provide a
+methodology for estimating feature importance via machine
+learning and interpretability methods with the goal of gathering higher-quality image data through a case study on
+BiomeAzuero2022.},
+  journal={AAAI AI for Social Good Workshop},
+  year={2023},
+  url={https://amulyayadav.github.io/AI4SG2023/images/15.pdf},
+  html={https://amulyayadav.github.io/AI4SG2023/images/15.pdf},
+  month={February},
+  selected={true}
+}
+
+@article{PhysRev.47.777,
+  abbr={In Review},
+  title={Restless and Non-Stationary Bandits for Planning Public Health Interventions},
+  author={Mate, Aditya and Taneja, Aparna and Jain, Gauri and Tambe, Milind},
+  journal={In Review},
+  year={2022},
+  month={October},
+  selected={false}
+}
+
+@article{PhysRev.47.777,
+  abbr={Informs 2022},
+  title={Sequential Fair Allocation: Achieving the Optimal Envy-Efficiency Tradeoff Curve},
+  author={Sinclair, Sean and Jain, Gauri and Banerjee, Siddhartha and Lee Yu, Christina},
+  abstract={We consider the problem of dividing limited resources to individuals arriving over T rounds. Each round has a random number of individuals arrive, and individuals can be characterized by their type (i.e. preferences over the different resources). A standard notion of 'fairness' in this setting is that an allocation simultaneously satisfy envy-freeness and efficiency. The former is an individual guarantee, requiring that each agent prefers their own allocation over the allocation of any other; in contrast, efficiency is a global property, requiring that the allocations clear the available resources. For divisible resources, when the number of individuals of each type are known upfront, the above desiderata are simultaneously achievable for a large class of utility functions. However, in an online setting when the number of individuals of each type are only revealed round by round, no policy can guarantee these desiderata simultaneously, and hence the best one can do is to try and allocate so as to approximately satisfy the two properties.
+We show that in the online setting, the two desired properties (envy-freeness and efficiency) are in direct contention, in that any algorithm achieving additive counterfactual envy-freeness up to a factor of LT necessarily suffers a efficiency loss of at least 1/LT. We complement this uncertainty principle with a simple algorithm, HopeGuardrail, which allocates resources based on an adaptive threshold policy and is able to achieve any fairness-efficiency point on this frontier. In simulation results, our algorithm provides allocations close to the optimal fair solution in hindsight, motivating its use in practical applications as the algorithm is able to adapt to any desired fairness efficiency trade-off.},
+  journal={Operations Research},
   publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+  url={https://arxiv.org/abs/2105.05308},
+  html={https://arxiv.org/abs/2105.05308},
+  year={2022},
+  month={November},
+  selected={true}
+}
+
+@article{PhysRev.47.777,
+  abbr={NeurIPS 2020},
+  title={Adaptive Discretization for Model-Based Reinforcement Learning},
+  author={Sinclair, Sean and Wang, Tianyu and Jain, Gauri and Banerjee, Siddhartha and Lee Yu, Christina},
+  abstract={We introduce the technique of adaptive discretization to design an efficient model-based episodic reinforcement learning algorithm in large (potentially continuous) state-action spaces. Our algorithm is based on optimistic one-step value iteration extended to maintain an adaptive discretization of the space. From a theoretical perspective we provide worst-case regret bounds for our algorithm which are competitive compared to the state-of-the-art model-based algorithms. Moreover, our bounds are obtained via a modular proof technique which can potentially extend to incorporate additional structure on the problem.
+From an implementation standpoint, our algorithm has much lower storage and computational requirements due to maintaining a more efficient partition of the state and action spaces. We illustrate this via experiments on several canonical control problems, which shows that our algorithm empirically performs significantly better than fixed discretization in terms of both faster convergence and lower memory usage. Interestingly, we observe empirically that while fixed discretization model-based algorithms vastly outperform their model-free counterparts, the two achieve comparable performance with adaptive discretization.},
+  journal={Advances in Neural Information Processing Systems 33},
+  publisher=aps,
+  year={2020},
+  month={May},
+  url={https://proceedings.neurips.cc/paper/2020/file/285baacbdf8fda1de94b19282acd23e2-Paper.pdf},
+  html={https://proceedings.neurips.cc/paper/2020/file/285baacbdf8fda1de94b19282acd23e2-Paper.pdf},
+  selected={true}
 }
 
 @article{einstein1905molekularkinetischen,

@@ -1,12 +1,7 @@
 <div class="news">
   {% if site.news != blank %}
     {% assign news_size = site.news | size %}
-    <div
-      class="table-responsive"
-      {% if include.limit and site.announcements.scrollable and news_size > 3 %}
-        style="max-height: 60vw"
-      {% endif %}
-    >
+    <div class="table-responsive">
       <table class="table table-sm table-borderless">
         {% assign news = site.news | reverse %}
         {% if include.limit and site.announcements.limit %}
@@ -32,3 +27,27 @@
     <p>No news so far...</p>
   {% endif %}
 </div>
+
+<style>
+.news-container {
+  scrollbar-width: thin;
+  scrollbar-color: var(--global-theme-color) var(--global-bg-color);
+}
+
+.news-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.news-container::-webkit-scrollbar-track {
+  background: var(--global-bg-color);
+}
+
+.news-container::-webkit-scrollbar-thumb {
+  background-color: var(--global-theme-color);
+  border-radius: 4px;
+}
+
+.news-container table {
+  margin-bottom: 0;
+}
+</style>

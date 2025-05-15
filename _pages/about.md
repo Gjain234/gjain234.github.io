@@ -2,24 +2,24 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Advised by <a href='https://elisabethpaulson.github.io/'>Elisabeth Paulson</a>.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.png
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  
+[//]: # (  address: >)
 
-news: true # includes a list of news items
+[//]: # (    <p>Science and Engineering Complex 2.112</p>)
+
+news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello! My name is [Gauri](https://youtu.be/DZ6DOqpxTjg?t=8) and I'm a third year Computer Science PhD student at Harvard. I am excited about all things related to using technology (carefully!!) to make the world better. For my research, I'm especially interested in applying concepts in optimization and machine learning to problems in public health and immigration. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Before Harvard, I worked at Meta as a software engineer on Marketplace and Integrity products in the Bay Area and London. And before that, I studied computer science at Cornell University. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I also love teaching (probably unsurprising given how overly energetic this page is)! Some of my favorite teaching experiences I've had so far are as a middle school math and cs instructor with [Breakthrough](https://www.breakthroughcollaborative.org/teach/), a Physics TA with the [Cornell Prison Education Program](https://cpep.cornell.edu/), and a Section Leader with the [Stanford Code in Place Program](https://codeinplace.stanford.edu/). If any of my background interests you, please reach out! I could probably learn a thing or two from you.
