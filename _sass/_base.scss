@@ -519,6 +519,51 @@ footer.sticky-bottom {
     color: var(--global-theme-color);
     font-size: 5rem;
   }
+
+  &.blog-page-header {
+    border-bottom-color: var(--global-theme-color);
+    border-bottom-width: 2px;
+
+    h1 {
+      color: var(--global-text-color);
+      font-size: 4rem;
+    }
+
+    h2 {
+      display: none;
+    }
+  }
+}
+
+// Blog page: space between header line and cards
+.post .featured-posts {
+  margin-top: 2.5rem;
+}
+
+// Blog page cards: purple accent on hover
+.post .featured-posts .card.hoverable {
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    border-left: 4px solid var(--global-theme-color);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+    .card-title {
+      color: var(--global-theme-color);
+    }
+  }
+
+  .card-title {
+    transition: color 0.2s ease;
+  }
+
+  a {
+    color: var(--global-theme-color);
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
+  }
 }
 
 .tag-category-list {
